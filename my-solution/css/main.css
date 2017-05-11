@@ -1,0 +1,84 @@
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background: #fff url("../images/bgtile.png") repeat-x;
+}
+
+.site {
+  width: 70%;
+  margin: 44px auto 10px auto;
+}
+
+.content {
+  float: right;
+}
+
+.text {
+  width: 500px;
+  background: url("../images/frame.png") no-repeat;
+  margin-top: 0px;
+
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #06365f;
+  font-size: 25px;
+  float: left;
+  margin: 0 20px 20px 0px;
+  width: 350px;
+}
+
+.text {
+  min-height: 204px;
+  padding: 40px;
+  width: 425px;
+}
+
+.text p {
+  margin: 10px 0;
+}
+
+p > span {
+  font-weight: bold;
+}
+
+.buttons {
+  display: inline-block;
+  margin: 5px;
+  margin-top: 30px;
+}
+
+li {
+  color: #180B6A;
+  font-size: 11px;
+  font-weight: bold;
+  display: inline;
+  text-transform: uppercase;
+  margin: 15px;
+}
+
+ul {
+  list-style: none;
+  clear: both;
+  text-align: center;
+}
+
+ul > span {
+  color: grey;
+  font-size: 11px;
+  font-weight: bold;
+  display: inline;
+  text-transform: uppercase;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-bottom: 10px;
+}
